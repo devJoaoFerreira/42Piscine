@@ -84,7 +84,7 @@ void	rush(int x, int y)
 	int	lines;
 
 	lines = 1;
-	if (x < 0 | y < 0)
+	if (x < 0 || y < 0)
 		return ;
 	if (!(x == 0 || y == 0))
 	{
